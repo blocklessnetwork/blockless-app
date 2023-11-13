@@ -1,0 +1,15 @@
+name = "avs-core"
+version = "1.0.0"
+
+[deployment]
+nodes = 1
+
+[build]
+dir = "build"
+entry = "avs-core_debug.wasm"
+command = "npm run build:debug"
+
+[build_release]
+dir = "build"
+entry = "avs-core.wasm"
+command = "npm run build:release"

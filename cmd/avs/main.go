@@ -256,11 +256,11 @@ func run() int {
 
 	select {
 	case <-sig:
-		log.Info().Msg("Blockless Node stopping")
+		log.Info().Msg("Blockless AVS stopping")
 	case <-done:
-		log.Info().Msg("Blockless Node done")
+		log.Info().Msg("Blockless AVS done")
 	case <-failed:
-		log.Info().Msg("Blockless Node aborted")
+		log.Info().Msg("Blockless AVS aborted")
 		return failure
 	}
 
