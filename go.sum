@@ -69,8 +69,8 @@ github.com/beorn7/perks v0.0.0-20180321164747-3a771d992973/go.mod h1:Dwedo/Wpr24
 github.com/beorn7/perks v1.0.0/go.mod h1:KWe93zE9D1o94FZ5RNwFwVgaQK1VOXiVxmqh+CedLV8=
 github.com/beorn7/perks v1.0.1 h1:VlbKKnNfV8bJzeqoa4cOKqO6bYr3WgKZxO8Z16+hsOM=
 github.com/beorn7/perks v1.0.1/go.mod h1:G2ZrVWU2WbWT9wwq4/hrbKbnv/1ERSJQ0ibhJ6rlkpw=
-github.com/blocklessnetwork/b7s v0.4.2 h1:2cgajpfqG92dO1p3WkQLRRSUq8GNQ8cnib4/b0wqgPQ=
-github.com/blocklessnetwork/b7s v0.4.2/go.mod h1:fkA5Te5tqk+foXMS50qe0zSx4V5KaO4PLKKpt2AudQE=
+github.com/blocklessnetwork/b7s v0.4.3 h1:uqojfDy7rBekScFL2bVacKurmOtBo9bdxjKXJg4XhUY=
+github.com/blocklessnetwork/b7s v0.4.3/go.mod h1:fkA5Te5tqk+foXMS50qe0zSx4V5KaO4PLKKpt2AudQE=
 github.com/blocklessnetwork/b7s-attributes v0.0.0-20231003175355-c87ad3eae97e h1:MbORHFMckGPdJq3Wdya+DqrY5iyvUn4PdcWyI3ywd30=
 github.com/blocklessnetwork/b7s-attributes v0.0.0-20231003175355-c87ad3eae97e/go.mod h1:OvkFdYsKp1RFpfa/nLuOc4Aif08U6O9uOcAnXgz/qJY=
 github.com/boltdb/bolt v1.3.1 h1:JQmyP4ZBrce+ZQu0dY660FMfatumYDLun9hBCUVIkF4=
