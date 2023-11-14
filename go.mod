@@ -152,6 +152,7 @@ require (
 require (
 	github.com/blocklessnetwork/b7s v0.4.3
 	github.com/labstack/gommon v0.4.0 // indirect
+	github.com/libp2p/go-libp2p-core v0.20.1
 	github.com/mattn/go-colorable v0.1.13 // indirect
 	github.com/mattn/go-isatty v0.0.19 // indirect
 	github.com/rs/zerolog v1.31.0
