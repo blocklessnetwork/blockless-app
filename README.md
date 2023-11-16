@@ -1,13 +1,17 @@
-# example avs built on blockless networking stack
+# Example AVS built on Blockless Networking Stack
 
-This example `avs` is built as a low level on rails system using Blockless SDK.
+This example Actively Validated Service (`avs`) demonstrates a low-level, on-rails system architecture utilizing the Blockless SDK.
 
-There are two command line entries for this repository.
+## Repository Structure
+The repository consists of three primary components:
 
-- `avs` - located under `cmd/avs`, this is the base AVS Node System. The topology launch is left to the developer of the network.
-- `keys` - located under `cmd/keys`, this is the base Key system built on libp2p keys. This can be adjusted as a AVS developer sees fit.
-
-# core AVS functionality
-
-`_avs-core` is a low level WASM application, that runs in the `Blockless Runtime`. This is recommended, so that an AVS can port it's core logic externally from the Operator Network. This ensures seamless upgrades when required, much like updating Smart Contracts, the core functionality of the AVS network can
-remain untouched, while the portable executor logic can be updated.
+1. AVS Node System (`cmd/avs`):
+   - This is the foundational AVS Node System.
+   - Topology launch configuration is left to the network developer's discretion.
+2. Key System (`cmd/keys`):
+   - Forms the base Key system, built on libp2p keys.
+   - Offers flexibility for AVS developers to modify as needed.
+3. Core AVS Functionality (`_avs-core`)
+   - A low-level WebAssembly (WASM) application running in the `Blockless Runtime`.
+   - Designed for AVSs to port their core logic outside of the Operator Network.
+   - Facilitates seamless upgrades, akin to updating smart contracts. This allows the core functionality of the AVS network to remain consistent, while the portable executor logic can be updated as required.
