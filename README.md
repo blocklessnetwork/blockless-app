@@ -3,6 +3,7 @@
 This example Actively Validated Service (`avs`) demonstrates a low-level, on-rails system architecture utilizing the Blockless SDK.
 
 ## Repository Structure
+
 The repository consists of three primary components:
 
 1. AVS Node System (`cmd/avs`):

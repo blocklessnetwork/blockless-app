@@ -5,5 +5,5 @@
 --port 9527 \
 --role head \
 --workspace /tmp/debug/head \
---private-key /testkeys/head/priv.bin \
+--private-key ./testkeys/head/priv.bin \
 --rest-api :8081
